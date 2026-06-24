@@ -18,6 +18,8 @@ website:
       - text: "Home"
         href: index.qmd
     right: 
+      - text: "About"
+        href: about.qmd
       - icon: github
         href: https://github.com/shaela-noble/shaela-noble.github.io
   page-footer: 
