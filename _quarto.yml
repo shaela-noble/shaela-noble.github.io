@@ -1,0 +1,31 @@
+project:
+  type: website
+  execute-dir: project
+  output-dir: docs
+  render:
+    - "*.qmd"
+
+execute: 
+  freeze: auto
+
+website:
+  title: "Shaela Noble"
+  repo-url: https://github.com/shaela-noble/shaela-noble.github.io
+  repo-actions: [issue]
+  navbar:
+    background: primary
+    left:
+      - text: "Home"
+        href: index.qmd
+    right: 
+      - icon: github
+        href: https://github.com/shaela-noble/shaela-noble.github.io
+  page-footer: 
+    center: "Copyright &copy; 2026, Shaela Noble"
+    background: secondary
+
+format:
+  html:
+    toc: true
+    link-external-newwindow: true
+    link-external-icon: false
